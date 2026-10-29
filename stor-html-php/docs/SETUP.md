@@ -13,7 +13,7 @@
 1. أنشئ قاعدة MySQL فارغة باسم تختاره.
 2. استورد database/stor.sql فيها. الملف يحتوي 23 جدولًا و3 views و15 منتجًا، ولا يحوي حسابات أو كلمات مرور.
 3. من جذر المشروع نفّذ `php scripts/config-init.php`.
-4. افتح config/config.local.php وضع اتصال القاعدة واضبط origin على http://127.0.0.1:8088. احتفظ بمفتاح التشفير الذي ولّده السكربت.
+4. افتح config/config.local.php وضع اتصال القاعدة واضبط origin على http://127.0.0.1:8088. أضف أي عنوان محلي آخر تفتح منه الموقع (مثل http://stor-html-php.test في Laragon) إلى allowed_origins، وإلا تُرفض طلبات الدخول والطلب برمز 403. احتفظ بمفتاح التشفير الذي ولّده السكربت.
 5. نفّذ `php scripts/create-admin.php` وأنشئ حسابك.
 6. شغّل `php -S 127.0.0.1:8088 -t public router.php`.
 

@@ -12,7 +12,7 @@ try {
     $method = $_SERVER['REQUEST_METHOD'];
     $path = '/'.trim((string) ($_GET['route'] ?? ''), '/');
     if (!in_array($method, ['GET', 'HEAD'], true)) {
-        if (($_SERVER['HTTP_ORIGIN'] ?? '') !== rtrim(config()['origin'], '/')) {
+        if (!originAllowed($_SERVER['HTTP_ORIGIN'] ?? '')) {
             fail(403, 'مصدر الطلب غير مسموح.');
         }
 

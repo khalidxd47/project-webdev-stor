@@ -34,6 +34,14 @@ function config(): array
     return $c;
 }
 
+/** مصادر الطلب المسموحة: origin الرئيسي + allowed_origins (مثل localhost وعناوين Laragon .test). */
+function originAllowed(string $origin): bool
+{
+    $list = array_merge([config()['origin']], config()['allowed_origins'] ?? []);
+
+    return in_array($origin, array_map(fn ($o) => rtrim((string) $o, '/'), $list), true);
+}
+
 function db(): PDO
 {
     static $pdo;

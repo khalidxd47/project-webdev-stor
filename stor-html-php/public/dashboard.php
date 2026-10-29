@@ -21,7 +21,7 @@ if (!getenv('STOR_CONFIG') && !is_file(ROOT.'/config/config.local.php')) {
     />
     <meta
       name="theme-color"
-      content="#111629"
+      content="#f6f7f4"
     />
     <title>إدارة STOR</title>
     <link
