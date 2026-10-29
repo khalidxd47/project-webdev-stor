@@ -5,21 +5,39 @@
    التصميم يبدأ بالدسكتوب ثم يتدرج إلى التابلت والجوال.
    ============================================================= */
 
-/* 1. ألوان وأبعاد موحدة: عدّل هنا لتغيير الهوية أو عرض المحتوى. */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Lalezar&display=swap');
+
+/* 1. ألوان وأبعاد موحدة: هوية ورشة طباعة الشاشة — قماش قطني فاتح وأحبار طباعة. */
 :root {
-  color-scheme: dark;
-  --background: #111629;
-  --surface: #22263e;
-  --surface-raised: #2a2948;
-  --border: #ffffff12;
-  --text: #f4f3fc;
-  --muted: #b2b1c8;
-  --purple: #ae8dff;
-  --accent: linear-gradient(110deg, #6564f4, #9157f7);
+  color-scheme: light;
+  /* القماش والأسطح */
+  --background: #f6f7f4;
+  --background-glass: #f6f7f4f2;
+  --surface: #ffffff;
+  --surface-raised: #eceee9;
+  /* الحبر الأساسي والنصوص */
+  --text: #23272e;
+  --muted: #5e6570;
+  --border: #23272e1f;
+  --border-strong: #23272e38;
+  --ink-tint: #23272e0a;
+  --shadow: #23272e2e;
+  /* أحبار الطباعة */
+  --brand: #0e7c86;
+  --brand-tint: #0e7c861f;
+  --accent: var(--brand);
+  --tag: #f2c230;
+  --misprint: #e0524a;
+  --danger: #c93a32;
+  --ok: #1f7a4d;
+  /* الخطوط */
+  --font-body: 'IBM Plex Sans Arabic', Tahoma, Arial, sans-serif;
+  --font-display: 'Lalezar', 'IBM Plex Sans Arabic', Tahoma, sans-serif;
   --content-width: 1480px;
   --page-gutter: clamp(24px, 4vw, 64px);
-  --header-height: 88px;
-  --radius: 20px;
+  --header-height: 80px;
+  --radius: 8px;
+  --radius-small: 6px;
   --layout-gap: clamp(24px, 3vw, 48px);
 }
 
@@ -33,10 +51,10 @@ body {
   min-width: 280px;
   min-height: 100vh;
   color: var(--text);
-  background: radial-gradient(ellipse at 20% 70%, #21194355, transparent 65%), var(--background);
-  font-family: Tahoma, Arial, sans-serif;
-  font-size: 15px;
-  line-height: 1.7;
+  background: var(--background);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.75;
 }
 
 h1,
@@ -48,14 +66,21 @@ dd {
   margin: 0;
 }
 
+/* Lalezar خط ملصقات عريض: للعناوين الكبيرة فقط، بوزن واحد. */
+h1,
+h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
 h1 {
-  font-size: clamp(26px, 2.3vw, 36px);
-  line-height: 1.45;
+  font-size: clamp(30px, 2.8vw, 42px);
+  line-height: 1.3;
 }
 
 h2 {
-  font-size: 22px;
-  line-height: 1.5;
+  font-size: 26px;
+  line-height: 1.4;
 }
 
 h3 {
@@ -97,7 +122,7 @@ button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 select:focus-visible {
-  outline: 2px solid #c6b3ff;
+  outline: 2px solid var(--brand);
   outline-offset: 4px;
 }
 
@@ -126,12 +151,12 @@ select {
   padding: 12px 14px;
   border: 1px solid var(--border);
   border-radius: 11px;
-  background: #ffffff08;
+  background: var(--ink-tint);
   color: var(--text);
 }
 
 input::placeholder {
-  color: #9493ad;
+  color: var(--muted);
 }
 
 select option {
@@ -170,7 +195,7 @@ small,
   inset-inline-start: 24px;
   padding: 12px 20px;
   border-radius: 10px;
-  color: #201a38;
+  color: var(--text);
   background: #fff;
 }
 
@@ -185,31 +210,38 @@ small,
   gap: 8px;
   min-height: 48px;
   padding: 12px 22px;
-  border: 1px solid var(--border);
-  border-radius: 11px;
+  border: 1.5px solid var(--text);
+  border-radius: var(--radius-small);
+  font-weight: 500;
   line-height: 1.5;
   text-align: center;
-  transition: filter 160ms;
+  transition:
+    filter 160ms,
+    transform 160ms;
 }
 
 .button:hover:not(:disabled) {
-  filter: brightness(1.12);
+  filter: brightness(0.92);
+}
+
+.button:active:not(:disabled) {
+  transform: translateY(1px);
 }
 
 .button-primary {
-  border-color: transparent;
-  background: var(--accent);
-  color: white;
-  box-shadow: 0 5px 20px #7655ff16;
+  border-color: var(--brand);
+  background: var(--brand);
+  color: #ffffff;
 }
 
 .button-secondary {
-  background: var(--surface-raised);
+  background: var(--surface);
 }
 
 .button-light {
-  background: #fff;
-  color: #4c399b;
+  border-color: var(--text);
+  background: var(--text);
+  color: var(--background);
 }
 
 .full-width {
@@ -220,7 +252,7 @@ small,
   padding: clamp(22px, 2.2vw, 32px);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  background: linear-gradient(120deg, #25293e, #292541);
+  background: var(--surface);
   min-width: 0;
 }
 
@@ -233,7 +265,7 @@ small,
 }
 
 .text-link {
-  color: var(--purple);
+  color: var(--brand);
 }
 
 /* 3. هيكل الدسكتوب: حاوية عريضة موحدة لجميع الصفحات. */
@@ -247,7 +279,7 @@ small,
   inset-block-start: 0;
   z-index: 30;
   border-block-end: 1px solid var(--border);
-  background: #111629f0;
+  background: var(--background-glass);
   backdrop-filter: blur(16px);
 }
 
@@ -268,7 +300,7 @@ small,
 }
 
 .brand span {
-  color: var(--purple);
+  color: var(--misprint);
 }
 
 .desktop-nav {
@@ -286,7 +318,7 @@ small,
 }
 
 .desktop-nav a[aria-current='page'] {
-  border-color: var(--purple);
+  border-color: var(--brand);
   color: var(--text);
 }
 
@@ -306,7 +338,7 @@ small,
   position: relative;
   border: 1px solid var(--border);
   border-radius: 50%;
-  background: #ffffff06;
+  background: var(--ink-tint);
   flex-shrink: 0;
 }
 
@@ -317,16 +349,18 @@ small,
   min-width: 19px;
   height: 19px;
   border-radius: 20px;
-  background: #855df7;
+  background: var(--tag);
+  color: var(--text);
+  font-weight: 700;
   font-size: 10px;
   line-height: 19px;
   text-align: center;
 }
 
 .icon-button[aria-pressed='true'] {
-  border-color: var(--purple);
-  color: var(--purple);
-  background: #795bf329;
+  border-color: var(--brand);
+  color: var(--brand);
+  background: var(--brand-tint);
 }
 
 .main-content {
@@ -384,52 +418,67 @@ small,
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
   gap: 40px;
   align-items: center;
-  min-height: 385px;
-  padding: clamp(32px, 4vw, 60px);
-  border-radius: 26px;
-  background: var(--accent);
-  overflow: hidden;
+  min-height: 420px;
+  padding-block: clamp(24px, 4vw, 56px);
+  border-block-end: 2px solid var(--text);
 }
 
+/* العنصر الجريء الوحيد: عنوان مطبوع بطبقتي حبر غير متطابقتين كطباعة الشاشة. */
 .hero h1 {
-  margin-block: 16px;
-  font-size: clamp(36px, 3.5vw, 54px);
-  line-height: 1.35;
+  margin-block: 12px 20px;
+  font-size: clamp(48px, 6.4vw, 96px);
+  line-height: 1.12;
+  text-shadow: -0.05em 0.04em 0 var(--misprint);
+  animation: misprint 700ms cubic-bezier(0.2, 0.7, 0.2, 1) 200ms both;
+}
+
+@keyframes misprint {
+  from {
+    text-shadow: 0 0 0 var(--misprint);
+  }
 }
 
 .hero p {
-  margin-block-end: 24px;
-  color: #f1eaff;
+  max-width: 34ch;
+  margin-block-end: 28px;
+  color: var(--muted);
+  font-size: 18px;
 }
 
 .eyebrow {
   display: inline-block;
-  font-size: 11px;
-  letter-spacing: 1.5px;
+  font-size: 13px;
+  color: var(--muted);
 }
 
+/* إطار الشاشة: مربع حبر بسيط خلف القطعة. */
 .hero-visual {
   display: grid;
   place-items: center;
   position: relative;
-  padding: 12px;
+  padding: clamp(20px, 3vw, 40px);
+  border-radius: var(--radius);
+  background: var(--brand);
 }
 
 .hero-visual img {
-  width: min(100%, 310px);
+  width: min(100%, 340px);
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
-  border: 1px solid #ffffff25;
-  border-radius: 24px;
-  box-shadow: 0 25px 50px #20164455;
-  transform: rotate(-7deg);
+  filter: drop-shadow(0 18px 24px #0004);
 }
 
 .hero-label {
-  margin-block-start: 22px;
-  font-size: 12px;
-  color: #f1eaff;
+  margin-block-start: 12px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero h1 {
+    animation: none;
+  }
 }
 
 .section-heading {
@@ -448,15 +497,15 @@ small,
   padding: 8px 22px;
   border: 1px solid var(--border);
   border-radius: 30px;
-  background: #ffffff05;
+  background: var(--ink-tint);
   font-size: 13px;
   white-space: nowrap;
 }
 
 .chip[aria-pressed='true'] {
-  border-color: #8b73e8;
-  background: #795bf329;
-  color: #d4c5ff;
+  border-color: var(--brand);
+  background: var(--brand-tint);
+  color: var(--brand);
 }
 
 .category-tabs {
@@ -477,15 +526,15 @@ small,
   min-width: 0;
   overflow: hidden;
   border: 1px solid var(--border);
-  border-radius: 18px;
-  background: linear-gradient(120deg, #25293e, #292541);
+  border-radius: var(--radius);
+  background: var(--surface);
 }
 
 .product-card-image {
   display: block;
   overflow: hidden;
   aspect-ratio: 1.15;
-  background: #191e2b;
+  background: var(--surface-raised);
 }
 
 .product-card-image img {
@@ -505,7 +554,7 @@ small,
 
 .tag {
   display: inline-block;
-  color: var(--purple);
+  color: var(--muted);
   font-size: 12px;
 }
 
@@ -524,6 +573,10 @@ small,
 
 .product-card-bottom strong {
   white-space: nowrap;
+  padding: 2px 10px;
+  border-radius: var(--radius-small);
+  background: var(--tag);
+  color: var(--text);
 }
 
 .product-card-bottom .button {
@@ -579,7 +632,7 @@ small,
   overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 22px;
-  background: #23263c;
+  background: var(--surface-raised);
 }
 
 .product-stage img {
@@ -625,7 +678,7 @@ small,
 }
 
 .thumbnail[aria-pressed='true'] {
-  outline: 2px solid var(--purple);
+  outline: 2px solid var(--brand);
   outline-offset: 3px;
 }
 
@@ -634,7 +687,7 @@ small,
   inset-inline: 0;
   inset-block-end: 0;
   padding: 3px;
-  background: #111629da;
+  background: var(--background-glass);
   font-size: 10px;
 }
 
@@ -651,7 +704,7 @@ small,
   margin-block: 18px 20px;
   font-size: 29px;
   font-weight: bold;
-  color: var(--purple);
+  color: var(--brand);
 }
 
 .option-section {
@@ -674,13 +727,13 @@ small,
   padding: 8px 3px;
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: #ffffff05;
+  background: var(--ink-tint);
   font-size: 10px;
 }
 
 .color-option[aria-pressed='true'] {
-  border-color: var(--purple);
-  background: #795bf31a;
+  border-color: var(--brand);
+  background: var(--brand-tint);
 }
 
 .color-dot {
@@ -688,7 +741,7 @@ small,
   height: 29px;
   display: grid;
   place-items: center;
-  border: 1px solid #ffffff20;
+  border: 1px solid var(--border-strong);
   border-radius: 50%;
 }
 
@@ -730,7 +783,7 @@ small,
   padding: 12px 15px;
   border: 1px solid var(--border);
   border-radius: 11px;
-  background: #ffffff06;
+  background: var(--ink-tint);
 }
 
 .size-options {
@@ -745,12 +798,12 @@ small,
   padding: 8px 2px;
   border: 1px solid var(--border);
   border-radius: 8px;
-  background: #ffffff05;
+  background: var(--ink-tint);
 }
 
 .size-options button[aria-pressed='true'] {
-  background: #805dfb;
-  border-color: #bba0ff;
+  background: var(--brand);
+  border-color: var(--brand);
 }
 
 .purchase-row {
@@ -775,7 +828,7 @@ small,
   padding: 0;
   border: 1px solid var(--border);
   border-radius: 9px;
-  background: #ffffff06;
+  background: var(--ink-tint);
   font-size: 19px;
 }
 
@@ -787,7 +840,7 @@ small,
 .field-error {
   min-height: 12px;
   margin-block: 8px;
-  color: #ffb0be;
+  color: var(--danger);
   font-size: 12px;
 }
 
@@ -839,7 +892,7 @@ small,
   aspect-ratio: 1;
   overflow: hidden;
   border-radius: 12px;
-  background: #171b2c;
+  background: var(--surface-raised);
 }
 
 .cart-item-image img {
@@ -857,7 +910,7 @@ small,
   width: 12px;
   height: 12px;
   vertical-align: middle;
-  border: 1px solid #ffffff30;
+  border: 1px solid var(--border-strong);
   border-radius: 50%;
 }
 
@@ -912,7 +965,7 @@ small,
   padding: 12px 15px;
   border: 1px solid var(--border);
   border-radius: 11px;
-  background: #ffffff06;
+  background: var(--ink-tint);
 }
 
 .summary-item {
@@ -955,6 +1008,7 @@ small,
   margin: 0 auto 22px;
   border-radius: 50%;
   background: var(--accent);
+  color: #ffffff;
   font-size: 30px;
 }
 
@@ -981,7 +1035,7 @@ small,
 
 .settings-link > span:last-child {
   margin-inline-start: auto;
-  color: var(--purple);
+  color: var(--brand);
 }
 
 .settings-link small {
@@ -1008,8 +1062,9 @@ small,
   flex-direction: column;
   justify-content: center;
   padding: 40px;
-  border-radius: 24px;
+  border-radius: var(--radius);
   background: var(--accent);
+  color: #ffffff;
 }
 
 .auth-intro h2 {
@@ -1077,8 +1132,8 @@ small,
 .order-status {
   padding: 5px 10px;
   border-radius: 20px;
-  background: #8562f129;
-  color: #c7b2ff;
+  background: var(--brand-tint);
+  color: var(--brand);
   font-size: 11px;
 }
 
@@ -1111,7 +1166,7 @@ small,
   list-style: none;
   padding: 0;
   margin: 35px 12px;
-  border-inline-start: 2px solid #7161c3;
+  border-inline-start: 2px solid var(--brand);
 }
 
 .timeline-step {
@@ -1131,14 +1186,14 @@ small,
   width: 25px;
   height: 25px;
   border-radius: 50%;
-  background: #42445a;
+  background: var(--border-strong);
   line-height: 25px;
   text-align: center;
 }
 
 .timeline-step.completed::before {
   content: '✓';
-  background: #0b987b;
+  background: var(--ok);
 }
 
 .invoice-layout {
@@ -1172,9 +1227,9 @@ small,
   max-width: min(90%, 600px);
   padding: 14px 24px;
   border-radius: 12px;
-  background: #f0eaff;
-  color: #302055;
-  box-shadow: 0 12px 40px #0005;
+  background: var(--text);
+  color: var(--background);
+  box-shadow: 0 12px 40px var(--shadow);
   text-align: center;
   opacity: 0;
   pointer-events: none;
@@ -1236,12 +1291,12 @@ small,
 
   .hero {
     min-height: 300px;
-    padding: 32px;
+    padding: 24px 0;
     gap: 24px;
   }
 
   .hero h1 {
-    font-size: 36px;
+    font-size: 56px;
   }
 
   .catalog-toolbar {
@@ -1354,7 +1409,7 @@ small,
     min-height: 74px;
     padding: 12px 8px max(12px, env(safe-area-inset-bottom));
     border-block-start: 1px solid var(--border);
-    background: #101526f5;
+    background: var(--background-glass);
     backdrop-filter: blur(14px);
   }
 
@@ -1368,30 +1423,28 @@ small,
   }
 
   .mobile-nav a[aria-current='page'] {
-    color: var(--purple);
+    color: var(--brand);
   }
 
   .hero {
     grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
-    padding: 24px 20px;
+    padding: 20px 0;
     min-height: 230px;
     gap: 12px;
-    border-radius: 18px;
   }
 
   .hero h1 {
-    font-size: clamp(24px, 6vw, 34px);
+    font-size: clamp(32px, 9vw, 44px);
     margin-block: 12px;
   }
 
   .hero p {
-    font-size: 11px;
+    font-size: 15px;
     margin-block-end: 16px;
   }
 
   .hero .eyebrow {
-    font-size: 8px;
-    letter-spacing: 0.4px;
+    font-size: 12px;
   }
 
   .hero .button {
@@ -1401,7 +1454,7 @@ small,
   }
 
   .hero-visual {
-    padding: 0;
+    padding: 12px;
   }
 
   .hero-visual img {
@@ -1672,7 +1725,7 @@ small,
 
 .recovery-panel [role='status'] {
   margin-block: 20px;
-  color: var(--purple);
+  color: var(--brand);
 }
 
 .address-list {
@@ -1731,4 +1784,9 @@ small,
   .invoice-paper {
     border: 0;
   }
+}
+
+/* نص فاتح فوق لوحات الحبر الملونة. */
+.auth-intro .eyebrow {
+  color: #ffffffcc;
 }

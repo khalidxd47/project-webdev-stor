@@ -6,7 +6,7 @@
   align-items: center;
 }
 .course-links a:hover {
-  color: #b6a0ff;
+  color: var(--brand);
 }
 .course-home {
   padding-block: 2rem 4rem;
@@ -21,7 +21,7 @@
   display: block;
   overflow: hidden;
   border-radius: 1rem;
-  background: #24273f;
+  background: var(--surface-raised);
 }
 .course-gallery img {
   width: 100%;
@@ -85,7 +85,7 @@ main table {
 main th,
 main td {
   padding: 1rem;
-  border-bottom: 1px solid #45415d;
+  border-bottom: 1px solid var(--border-strong);
 }
 .course-dashboard caption,
 main caption {
@@ -114,7 +114,7 @@ main ul {
 a:focus-visible,
 button:focus-visible,
 input:focus-visible {
-  outline: 3px solid #b6a0ff;
+  outline: 3px solid var(--brand);
   outline-offset: 4px;
 }
 @media (max-width: 960px) {
@@ -164,8 +164,8 @@ input:focus-visible {
 /* التنقل النشط، اختيار اللغة، ودعم الاتجاهين. */
 .desktop-nav a[aria-current='page'],
 .mobile-nav a[aria-current='page'] {
-  color: #6faaff;
-  border-color: #5796ff;
+  color: var(--text);
+  border-color: var(--brand);
   font-weight: 700;
 }
 .language-switch {
@@ -178,15 +178,15 @@ input:focus-visible {
   max-width: 108px;
   min-height: 40px;
   padding: 6px 10px;
-  border: 1px solid #565f80;
+  border: 1px solid var(--border-strong);
   border-radius: 10px;
-  background: #202640;
-  color: #f5f7ff;
+  background: var(--surface-raised);
+  color: var(--text);
   font: inherit;
   cursor: pointer;
 }
 .language-switch select:focus-visible {
-  outline: 2px solid #6faaff;
+  outline: 2px solid var(--text);
   outline-offset: 3px;
 }
 html[dir='ltr'] body {

@@ -9,7 +9,7 @@
   gap: 1.5rem;
 }
 .setup-form fieldset {
-  border: 1px solid #49415f;
+  border: 1px solid var(--border-strong);
   border-radius: 1rem;
   padding: 1.5rem;
   display: grid;
@@ -18,7 +18,7 @@
 }
 .setup-form legend {
   padding: 0 0.5rem;
-  color: #b6a0ff;
+  color: var(--brand);
   font-weight: 700;
 }
 .setup-form input:not([type='checkbox']) {
@@ -37,10 +37,10 @@
 }
 .setup-error {
   padding: 1rem;
-  border: 1px solid #e47888;
+  border: 1px solid var(--danger);
   border-radius: 1rem;
-  background: #492734;
-  color: #ffcfda;
+  background: #fbe9e7;
+  color: var(--danger);
 }
 .connection-error {
   padding: 1.5rem;

@@ -51,8 +51,8 @@
 }
 .admin-notice {
   padding: 15px 20px;
-  border: 1px solid #9270ff66;
-  background: #795bf31a;
+  border: 1px solid var(--brand);
+  background: var(--brand-tint);
   border-radius: 12px;
   line-height: 1.9;
 }
@@ -110,7 +110,7 @@ textarea {
   min-width: 0;
   padding: 14px;
   resize: vertical;
-  background: #ffffff08;
+  background: var(--ink-tint);
   color: var(--text);
   border: 1px solid var(--border);
   border-radius: 11px;
