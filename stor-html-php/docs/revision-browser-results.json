@@ -1,0 +1,713 @@
+{
+  "date": "2026-10-27T15:22:38.348Z",
+  "english": [
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/index.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/products.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/product.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/cart.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/checkout.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/success.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/orders.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/tracking.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/invoice.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/login.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/register.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/account.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/profile.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/favorites.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/addresses.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/forgot-password.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/reset-password.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/about.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/size-guide.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/shipping.html",
+      "width": 1440
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/index.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/products.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/product.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/cart.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/checkout.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/success.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/orders.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/tracking.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/invoice.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/login.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/register.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/account.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/profile.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/favorites.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/addresses.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/forgot-password.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/reset-password.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/about.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/size-guide.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/shipping.html",
+      "width": 768
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/index.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/products.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/product.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/cart.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/checkout.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/success.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/orders.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/tracking.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/invoice.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/login.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/register.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/account.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/profile.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/favorites.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/addresses.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/forgot-password.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/reset-password.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/about.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/size-guide.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/shipping.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/index.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/products.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/product.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/cart.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/checkout.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/success.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/orders.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/tracking.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/invoice.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/login.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/register.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/account.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/profile.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/favorites.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/addresses.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/forgot-password.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/reset-password.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/about.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/size-guide.html",
+      "width": 320
+    },
+    {
+      "error": false,
+      "lang": "en",
+      "overflow": false,
+      "page": "/shipping.html",
+      "width": 320
+    }
+  ],
+  "arabic": [
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/index.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/products.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/product.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/cart.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/checkout.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/success.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/orders.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/tracking.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/invoice.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/login.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/register.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/account.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/profile.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/favorites.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/addresses.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/forgot-password.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/reset-password.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/about.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/size-guide.html",
+      "width": 390
+    },
+    {
+      "error": false,
+      "lang": "ar",
+      "overflow": false,
+      "page": "/shipping.html",
+      "width": 390
+    }
+  ],
+  "formLanguagePreservesInput": true,
+  "ordersActiveColor": "rgb(111, 170, 255)",
+  "adminRapidNavigation": {
+    "error": "",
+    "rows": 17
+  }
+}

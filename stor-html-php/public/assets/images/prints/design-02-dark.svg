@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <g fill="#ed9a58" stroke="#ed9a58" stroke-linejoin="round">
+    <circle cx="400" cy="410" r="43"/>
+    <path d="M400 344V330 M400 490V476 M334 410H320 M480 410H466 M354 364L343 353 M457 467L447 457 M354 457L343 467 M457 353L447 364" fill="none" stroke-width="8"/>
+  </g>
+  <g fill="#f7ead4" font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="400" y="535" font-size="37" letter-spacing="2">GOOD</text>
+    <text x="400" y="576" font-size="31" letter-spacing="4">ENERGY</text>
+    <text x="400" y="605" font-size="11" letter-spacing="5">STOR ORIGINALS · 2026</text>
+  </g>
+</svg>

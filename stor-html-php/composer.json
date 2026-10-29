@@ -1,0 +1,1 @@
+{"name":"stor/php-store","description":"STOR PHP and MySQL course project","type":"project","require":{"php":">=8.2","ext-pdo":"*","ext-pdo_mysql":"*","ext-mbstring":"*","ext-openssl":"*","phpmailer/phpmailer":"^6.10"}}

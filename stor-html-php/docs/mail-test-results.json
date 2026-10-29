@@ -1,0 +1,33 @@
+{
+  "transport": "Local SMTP STARTTLS capture; no external delivery",
+  "results": [
+    {
+      "capture": "html-smtp-capture-1.eml",
+      "html": true,
+      "invoice_attachment": true,
+      "reset_html_link": false,
+      "tracking_html_link": false
+    },
+    {
+      "capture": "html-smtp-capture-2.eml",
+      "html": true,
+      "invoice_attachment": false,
+      "reset_html_link": false,
+      "tracking_html_link": true
+    },
+    {
+      "capture": "html-smtp-capture-3.eml",
+      "html": true,
+      "invoice_attachment": true,
+      "reset_html_link": false,
+      "tracking_html_link": false
+    },
+    {
+      "capture": "html-smtp-capture-4.eml",
+      "html": true,
+      "invoice_attachment": false,
+      "reset_html_link": true,
+      "tracking_html_link": false
+    }
+  ]
+}

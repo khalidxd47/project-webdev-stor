@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <g fill="#ed9a58" stroke="#ed9a58" stroke-linejoin="round">
+    <path d="M335 370H465V455H335Z M380 455V475H420V455" fill="none" stroke-width="10"/>
+    <path d="M365 410H385 M415 410H435" fill="none" stroke-width="8"/>
+  </g>
+  <g fill="#f7ead4" font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="400" y="535" font-size="37" letter-spacing="2">OFFLINE</text>
+    <text x="400" y="576" font-size="31" letter-spacing="4">MODE</text>
+    <text x="400" y="605" font-size="11" letter-spacing="5">STOR ORIGINALS · 2026</text>
+  </g>
+</svg>

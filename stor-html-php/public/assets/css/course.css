@@ -1,0 +1,242 @@
+/* إضافات المتطلبات الأكاديمية؛ التصميم الأساسي محفوظ في style.css وadmin.css. */
+.course-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.course-links a:hover {
+  color: #b6a0ff;
+}
+.course-home {
+  padding-block: 2rem 4rem;
+}
+.course-gallery {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 1rem;
+  margin-block: 1.5rem;
+}
+.course-gallery a {
+  display: block;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: #24273f;
+}
+.course-gallery img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  transition:
+    transform 0.25s,
+    filter 0.25s;
+}
+.course-gallery a:hover img {
+  transform: scale(1.06);
+  filter: brightness(1.1);
+}
+.course-media {
+  margin-top: 2rem;
+}
+.course-media audio {
+  width: min(100%, 480px);
+}
+.course-info-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 2rem;
+}
+.course-info-grid .panel,
+.course-home .panel {
+  padding: 2rem;
+}
+.course-slideshow img {
+  width: 100%;
+  height: 340px;
+  object-fit: contain;
+  transition: opacity 0.25s;
+}
+.course-space {
+  margin-top: 2rem;
+}
+.course-dashboard {
+  margin-block: 2rem;
+  padding: 2rem;
+}
+.course-search {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.course-search input {
+  flex: 1;
+  min-width: 140px;
+}
+.course-dashboard table,
+main table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 480px;
+  text-align: right;
+}
+.course-dashboard th,
+.course-dashboard td,
+main th,
+main td {
+  padding: 1rem;
+  border-bottom: 1px solid #45415d;
+}
+.course-dashboard caption,
+main caption {
+  text-align: right;
+  padding: 1rem;
+  font-weight: bold;
+}
+.course-dashboard .table-wrap,
+main .table-wrap {
+  overflow-x: auto;
+}
+.course-dashboard td {
+  max-width: 350px;
+  overflow-wrap: anywhere;
+}
+main ol,
+main ul {
+  line-height: 2;
+}
+.course-info-grid p {
+  line-height: 1.9;
+}
+.course-info-grid .button {
+  margin-top: 1rem;
+}
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #b6a0ff;
+  outline-offset: 4px;
+}
+@media (max-width: 960px) {
+  .course-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .course-info-grid {
+    grid-template-columns: 1fr;
+  }
+  .course-slideshow img {
+    height: 280px;
+  }
+}
+@media (max-width: 640px) {
+  .course-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+  }
+  .course-gallery img {
+    height: 130px;
+  }
+  .course-info-grid .panel,
+  .course-home .panel,
+  .course-dashboard {
+    padding: 1rem;
+  }
+  .course-search {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .course-links {
+    gap: 0.8rem;
+  }
+  .course-slideshow img {
+    height: 230px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+/* التنقل النشط، اختيار اللغة، ودعم الاتجاهين. */
+.desktop-nav a[aria-current='page'],
+.mobile-nav a[aria-current='page'] {
+  color: #6faaff;
+  border-color: #5796ff;
+  font-weight: 700;
+}
+.language-switch {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.language-switch select {
+  width: auto;
+  max-width: 108px;
+  min-height: 40px;
+  padding: 6px 10px;
+  border: 1px solid #565f80;
+  border-radius: 10px;
+  background: #202640;
+  color: #f5f7ff;
+  font: inherit;
+  cursor: pointer;
+}
+.language-switch select:focus-visible {
+  outline: 2px solid #6faaff;
+  outline-offset: 3px;
+}
+html[dir='ltr'] body {
+  text-align: left;
+}
+html[dir='ltr'] .desktop-nav {
+  gap: 20px;
+}
+html[dir='ltr'] .header-actions {
+  margin-inline-start: auto;
+}
+html[dir='ltr'] .back-link svg {
+  transform: rotate(180deg);
+}
+html[dir='ltr'] input[type='email'],
+html[dir='ltr'] input[type='tel'] {
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .language-switch select {
+    max-width: 88px;
+    min-height: 36px;
+    font-size: 13px;
+  }
+  .header-actions {
+    gap: 7px;
+  }
+  html[dir='ltr'] .mobile-nav a {
+    font-size: 11px;
+  }
+}
+/* صف مستقل للتنقل على التابلت يمنع تزاحم الروابط الإنجليزية مع اللغة. */
+@media (min-width: 640px) and (max-width: 1099px) {
+  .header-layout {
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    padding-block: 10px;
+  }
+  .desktop-nav {
+    order: 3;
+    flex-basis: 100%;
+    justify-content: center;
+    min-height: 40px;
+    gap: 24px;
+  }
+  .desktop-nav a {
+    white-space: nowrap;
+    padding-block: 8px;
+  }
+  .header-actions {
+    margin-inline-start: auto;
+  }
+}

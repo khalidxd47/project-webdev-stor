@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <g fill="#bd4c2e" stroke="#bd4c2e" stroke-linejoin="round">
+    <path d="M400 335L415 385 465 400 415 415 400 465 385 415 335 400 385 385Z"/>
+    <circle cx="465" cy="350" r="8"/>
+    <circle cx="335" cy="465" r="6"/>
+  </g>
+  <g fill="#202b36" font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="400" y="535" font-size="37" letter-spacing="2">AFTER</text>
+    <text x="400" y="576" font-size="31" letter-spacing="4">HOURS</text>
+    <text x="400" y="605" font-size="11" letter-spacing="5">STOR ORIGINALS · 2026</text>
+  </g>
+</svg>

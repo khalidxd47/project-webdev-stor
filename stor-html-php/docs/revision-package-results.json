@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-27T15:25:59.597Z",
+  "environment": "PHP 8.4 + isolated MySQL 8.0, no production changes",
+  "results": [
+    {
+      "name": "PHP health and 15 products",
+      "status": "PASS"
+    },
+    {
+      "name": "Registration validates email/password",
+      "status": "PASS"
+    },
+    {
+      "name": "Customer registration and persistent account",
+      "status": "PASS"
+    },
+    {
+      "name": "Wrong origin and CSRF rejected",
+      "status": "PASS"
+    },
+    {
+      "name": "Customer cannot access admin",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin login independent portal",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin INSERT and public synchronization",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin UPDATE and stale version protection",
+      "status": "PASS"
+    },
+    {
+      "name": "Admin DELETE removes unreferenced product",
+      "status": "PASS"
+    },
+    {
+      "name": "Favorites and address ownership",
+      "status": "PASS"
+    },
+    {
+      "name": "Atomic checkout uses server price, stock and invoice",
+      "status": "PASS"
+    },
+    {
+      "name": "Idempotent checkout prevents duplicate stock deduction",
+      "status": "PASS"
+    },
+    {
+      "name": "Order and invoice owner-only access",
+      "status": "PASS"
+    },
+    {
+      "name": "Order state transition and notification queued",
+      "status": "PASS"
+    },
+    {
+      "name": "Invoice mail and generic password recovery",
+      "status": "PASS"
+    },
+    {
+      "name": "Dashboard PHP server-rendered data and search",
+      "status": "PASS"
+    },
+    {
+      "name": "Standalone HTML pages, viewport, footer and media",
+      "status": "PASS"
+    }
+  ]
+}

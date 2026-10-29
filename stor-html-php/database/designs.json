@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "sku": "TEE-BLACK",
+    "name": "تيشيرت Urban Club",
+    "english": "Urban Club Tee",
+    "description": "تصميم URBAN CLUB بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#181b22",
+    "image": "assets/images/design-01.svg"
+  },
+  {
+    "id": 2,
+    "sku": "TEE-WHITE",
+    "name": "تيشيرت Good Energy",
+    "english": "Good Energy Tee",
+    "description": "تصميم GOOD ENERGY بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#eeeade",
+    "image": "assets/images/design-02.svg"
+  },
+  {
+    "id": 3,
+    "sku": "TEE-GRAY",
+    "name": "تيشيرت Explore More",
+    "english": "Explore More Tee",
+    "description": "تصميم EXPLORE MORE بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#9ca3af",
+    "image": "assets/images/design-03.svg"
+  },
+  {
+    "id": 4,
+    "sku": "TEE-NAVY",
+    "name": "تيشيرت Midnight Studio",
+    "english": "Midnight Studio Tee",
+    "description": "تصميم MIDNIGHT STUDIO بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#263b58",
+    "image": "assets/images/design-04.svg"
+  },
+  {
+    "id": 5,
+    "sku": "HOODIE-GRAY",
+    "name": "هودي Slow Sunday",
+    "english": "Slow Sunday Hoodie",
+    "description": "تصميم SLOW SUNDAY بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#9ca3af",
+    "image": "assets/images/design-05.svg"
+  },
+  {
+    "id": 6,
+    "sku": "STOR-006",
+    "name": "تيشيرت Create Your Way",
+    "english": "Create Your Way Tee",
+    "description": "تصميم CREATE YOUR WAY بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#805be0",
+    "image": "assets/images/design-06.svg"
+  },
+  {
+    "id": 7,
+    "sku": "STOR-007",
+    "name": "تيشيرت Ocean State",
+    "english": "Ocean State Tee",
+    "description": "تصميم OCEAN STATE بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#2863cd",
+    "image": "assets/images/design-07.svg"
+  },
+  {
+    "id": 8,
+    "sku": "STOR-008",
+    "name": "تيشيرت Grow Daily",
+    "english": "Grow Daily Tee",
+    "description": "تصميم GROW DAILY بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#168c70",
+    "image": "assets/images/design-08.svg"
+  },
+  {
+    "id": 9,
+    "sku": "STOR-009",
+    "name": "تيشيرت No Limits",
+    "english": "No Limits Tee",
+    "description": "تصميم NO LIMITS بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#d74456",
+    "image": "assets/images/design-09.svg"
+  },
+  {
+    "id": 10,
+    "sku": "STOR-010",
+    "name": "تيشيرت Desert Soul",
+    "english": "Desert Soul Tee",
+    "description": "تصميم DESERT SOUL بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#d6ba8c",
+    "image": "assets/images/design-10.svg"
+  },
+  {
+    "id": 11,
+    "sku": "STOR-011",
+    "name": "تيشيرت Offline Mode",
+    "english": "Offline Mode Tee",
+    "description": "تصميم OFFLINE MODE بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#6b7280",
+    "image": "assets/images/design-11.svg"
+  },
+  {
+    "id": 12,
+    "sku": "STOR-012",
+    "name": "تيشيرت Stay Curious",
+    "english": "Stay Curious Tee",
+    "description": "تصميم STAY CURIOUS بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#181b22",
+    "image": "assets/images/design-12.svg"
+  },
+  {
+    "id": 13,
+    "sku": "STOR-013",
+    "name": "تيشيرت Less Is More",
+    "english": "Less Is More Tee",
+    "description": "تصميم LESS IS MORE بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#eeeade",
+    "image": "assets/images/design-13.svg"
+  },
+  {
+    "id": 14,
+    "sku": "STOR-014",
+    "name": "هودي After Hours",
+    "english": "After Hours Hoodie",
+    "description": "تصميم AFTER HOURS بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#263b58",
+    "image": "assets/images/design-14.svg"
+  },
+  {
+    "id": 15,
+    "sku": "STOR-015",
+    "name": "هودي Weekend Dept",
+    "english": "Weekend Dept Hoodie",
+    "description": "تصميم WEEKEND DEPT. بطباعة مميزة وقصة مريحة. اختر المقاس واللون المناسبين لك.",
+    "color": "#9ca3af",
+    "image": "assets/images/design-15.svg"
+  }
+]

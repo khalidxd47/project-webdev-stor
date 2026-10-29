@@ -1,0 +1,11 @@
+PASS Encrypted reset payload
+PASS New password persisted
+PASS Old password rejected
+PASS Reset revokes sessions
+PASS Reset token single use
+PASS Cancel restores inventory
+PASS Repeated cancellation cannot restore twice
+PASS Referenced product archived
+PASS Historical invoice retained
+PASS Printable invoice template complete
+10 domain scenarios passed.

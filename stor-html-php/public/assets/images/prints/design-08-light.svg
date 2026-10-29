@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <g fill="#bd4c2e" stroke="#bd4c2e" stroke-linejoin="round">
+    <path d="M400 480V370 M400 415Q325 420 335 350Q405 350 400 415 M400 445Q475 450 470 380Q400 380 400 445" fill="none" stroke-width="9"/>
+  </g>
+  <g fill="#202b36" font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="400" y="535" font-size="37" letter-spacing="2">GROW</text>
+    <text x="400" y="576" font-size="31" letter-spacing="4">DAILY</text>
+    <text x="400" y="605" font-size="11" letter-spacing="5">STOR ORIGINALS · 2026</text>
+  </g>
+</svg>

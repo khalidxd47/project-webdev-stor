@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <g fill="#bd4c2e" stroke="#bd4c2e" stroke-linejoin="round">
+    <circle cx="445" cy="375" r="31"/>
+    <path d="M300 465Q355 385 425 435Q470 395 505 465Z"/>
+  </g>
+  <g fill="#202b36" font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="400" y="535" font-size="37" letter-spacing="2">DESERT</text>
+    <text x="400" y="576" font-size="31" letter-spacing="4">SOUL</text>
+    <text x="400" y="605" font-size="11" letter-spacing="5">STOR ORIGINALS · 2026</text>
+  </g>
+</svg>

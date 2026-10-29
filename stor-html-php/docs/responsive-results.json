@@ -1,0 +1,674 @@
+[
+  {
+    "width": 1440,
+    "page": "index.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "تيشيرتات جديدة. ألوان تشبهك. | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "products.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "المنتجات | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "product.html?id=1",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "تفاصيل المنتج | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "cart.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "السلة | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "checkout.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "إتمام الطلب | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "orders.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "طلباتي | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "tracking.html?id=3",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "تتبع الطلب | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "invoice.html?id=3",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "فاتورة الطلب | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "success.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "تم تأكيد الطلب | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "account.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "حسابي | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "login.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "تسجيل الدخول | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "register.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "إنشاء حساب | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "profile.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "بيانات الحساب | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "favorites.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "المفضلة | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "addresses.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "عناوين الشحن | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "forgot-password.html?id=customer",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "نسيت كلمة المرور؟ | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "reset-password.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "تعيين كلمة مرور جديدة | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "about.html",
+    "connectionError": false,
+    "scroll": 1440,
+    "title": "عن STOR | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "size-guide.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "دليل المقاسات والعناية | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "shipping.html",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "الشحن وخطوات الطلب | STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 1440,
+    "page": "dashboard.php",
+    "connectionError": false,
+    "scroll": 1425,
+    "title": "إدارة STOR",
+    "viewport": 1440
+  },
+  {
+    "width": 768,
+    "page": "index.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "تيشيرتات جديدة. ألوان تشبهك. | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "products.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "المنتجات | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "product.html?id=1",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "تفاصيل المنتج | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "cart.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "السلة | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "checkout.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "إتمام الطلب | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "orders.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "طلباتي | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "tracking.html?id=3",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "تتبع الطلب | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "invoice.html?id=3",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "فاتورة الطلب | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "success.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "تم تأكيد الطلب | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "account.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "حسابي | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "login.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "تسجيل الدخول | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "register.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "إنشاء حساب | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "profile.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "بيانات الحساب | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "favorites.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "المفضلة | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "addresses.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "عناوين الشحن | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "forgot-password.html?id=customer",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "نسيت كلمة المرور؟ | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "reset-password.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "تعيين كلمة مرور جديدة | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "about.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "عن STOR | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "size-guide.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "دليل المقاسات والعناية | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "shipping.html",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "الشحن وخطوات الطلب | STOR",
+    "viewport": 768
+  },
+  {
+    "width": 768,
+    "page": "dashboard.php",
+    "connectionError": false,
+    "scroll": 753,
+    "title": "إدارة STOR",
+    "viewport": 768
+  },
+  {
+    "width": 390,
+    "page": "index.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "تيشيرتات جديدة. ألوان تشبهك. | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "products.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "المنتجات | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "product.html?id=1",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "تفاصيل المنتج | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "cart.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "السلة | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "checkout.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "إتمام الطلب | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "orders.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "طلباتي | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "tracking.html?id=3",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "تتبع الطلب | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "invoice.html?id=3",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "فاتورة الطلب | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "success.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "تم تأكيد الطلب | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "account.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "حسابي | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "login.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "تسجيل الدخول | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "register.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "إنشاء حساب | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "profile.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "بيانات الحساب | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "favorites.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "المفضلة | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "addresses.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "عناوين الشحن | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "forgot-password.html?id=customer",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "نسيت كلمة المرور؟ | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "reset-password.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "تعيين كلمة مرور جديدة | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "about.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "عن STOR | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "size-guide.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "دليل المقاسات والعناية | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "shipping.html",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "الشحن وخطوات الطلب | STOR",
+    "viewport": 390
+  },
+  {
+    "width": 390,
+    "page": "dashboard.php",
+    "connectionError": false,
+    "scroll": 375,
+    "title": "إدارة STOR",
+    "viewport": 390
+  },
+  {
+    "width": 320,
+    "page": "index.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "تيشيرتات جديدة. ألوان تشبهك. | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "products.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "المنتجات | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "product.html?id=1",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "تفاصيل المنتج | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "cart.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "السلة | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "checkout.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "إتمام الطلب | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "orders.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "طلباتي | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "tracking.html?id=3",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "تتبع الطلب | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "invoice.html?id=3",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "فاتورة الطلب | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "success.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "تم تأكيد الطلب | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "account.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "حسابي | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "login.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "تسجيل الدخول | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "register.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "إنشاء حساب | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "profile.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "بيانات الحساب | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "favorites.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "المفضلة | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "addresses.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "عناوين الشحن | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "forgot-password.html?id=customer",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "نسيت كلمة المرور؟ | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "reset-password.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "تعيين كلمة مرور جديدة | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "about.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "عن STOR | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "size-guide.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "دليل المقاسات والعناية | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "shipping.html",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "الشحن وخطوات الطلب | STOR",
+    "viewport": 320
+  },
+  {
+    "width": 320,
+    "page": "dashboard.php",
+    "connectionError": false,
+    "scroll": 305,
+    "title": "إدارة STOR",
+    "viewport": 320
+  }
+]

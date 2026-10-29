@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-27T15:25:21.645Z",
+  "results": [
+    {
+      "name": "Orders load even when the catalog endpoint fails",
+      "status": "PASS"
+    },
+    {
+      "name": "Invoice loads without fetching unrelated catalog data",
+      "status": "PASS"
+    },
+    {
+      "name": "Optional favorites failure does not break product details",
+      "status": "PASS"
+    },
+    {
+      "name": "Required favorites failure remains visible and retryable",
+      "status": "PASS"
+    },
+    {
+      "name": "Unauthenticated protected page retains the return destination",
+      "status": "PASS"
+    },
+    {
+      "name": "Navigation, product names and dynamic invoice details translate",
+      "status": "PASS"
+    },
+    {
+      "name": "Unknown customer names and addresses are preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "Localized strings retain surrounding layout whitespace",
+      "status": "PASS"
+    },
+    {
+      "name": "Shipping carrier values stay stable when option labels are translated",
+      "status": "PASS"
+    }
+  ]
+}

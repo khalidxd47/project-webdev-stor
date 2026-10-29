@@ -1,0 +1,129 @@
+{
+  "html_pages": 20,
+  "unique_images": 11,
+  "html_tables": 2,
+  "forms": 7,
+  "inline_css_examples": 1,
+  "records": [
+    {
+      "file": "about.html",
+      "lines": 90,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "account.html",
+      "lines": 207,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "addresses.html",
+      "lines": 207,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "cart.html",
+      "lines": 205,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "checkout.html",
+      "lines": 271,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "favorites.html",
+      "lines": 198,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "forgot-password.html",
+      "lines": 176,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "index.html",
+      "lines": 247,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "invoice.html",
+      "lines": 200,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "login.html",
+      "lines": 214,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "orders.html",
+      "lines": 167,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "product.html",
+      "lines": 265,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "products.html",
+      "lines": 198,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "profile.html",
+      "lines": 182,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "register.html",
+      "lines": 214,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "reset-password.html",
+      "lines": 186,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "shipping.html",
+      "lines": 108,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "size-guide.html",
+      "lines": 127,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "success.html",
+      "lines": 162,
+      "own_main_content": true,
+      "valid_local_resources": true
+    },
+    {
+      "file": "tracking.html",
+      "lines": 184,
+      "own_main_content": true,
+      "valid_local_resources": true
+    }
+  ]
+}

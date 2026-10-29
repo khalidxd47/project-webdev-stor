@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <g fill="#ed9a58" stroke="#ed9a58" stroke-linejoin="round">
+    <path d="M305 390Q350 335 400 390T495 390 M305 430Q350 375 400 430T495 430 M305 470Q350 415 400 470T495 470" fill="none" stroke-width="12"/>
+  </g>
+  <g fill="#f7ead4" font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="400" y="535" font-size="37" letter-spacing="2">OCEAN</text>
+    <text x="400" y="576" font-size="31" letter-spacing="4">STATE</text>
+    <text x="400" y="605" font-size="11" letter-spacing="5">STOR ORIGINALS · 2026</text>
+  </g>
+</svg>

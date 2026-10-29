@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <g fill="#bd4c2e" stroke="#bd4c2e" stroke-linejoin="round">
+    <path d="M350 390H440V455Q395 485 350 455Z"/>
+    <path d="M440 400Q485 390 475 430Q470 448 440 440 M370 365Q355 350 375 330 M410 365Q395 350 415 330" fill="none" stroke-width="8"/>
+  </g>
+  <g fill="#202b36" font-family="Arial, sans-serif" font-weight="900" text-anchor="middle">
+    <text x="400" y="535" font-size="37" letter-spacing="2">SLOW</text>
+    <text x="400" y="576" font-size="31" letter-spacing="4">SUNDAY</text>
+    <text x="400" y="605" font-size="11" letter-spacing="5">STOR ORIGINALS · 2026</text>
+  </g>
+</svg>
