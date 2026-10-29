@@ -41,7 +41,11 @@ function checkout(array $user, array $d): array
         fail(400, 'مفتاح الطلب غير صحيح.');
     }
 
-    $c = $d['customer'] ?? [];
+    $c = $d['customer'] ?? null;
+    if (!is_array($c) || !is_string($c['postal'] ?? '')) {
+        fail(400, 'بيانات الشحن غير صحيحة.');
+    }
+
     foreach (['name' => [3, 120], 'phone' => [10, 20], 'city' => [2, 100], 'district' => [2, 100], 'street' => [4, 255], 'carrier' => [3, 30]] as $k => $range) {
         text($c, $k, ...$range);
     }
@@ -56,6 +60,10 @@ function checkout(array $user, array $d): array
 
     $merged = [];
     foreach ($d['items'] as $i) {
+        if (!is_array($i)) {
+            fail(400, 'السلة غير صحيحة.');
+        }
+
         $id = integer($i['productId'] ?? null);
         $qty = integer($i['quantity'] ?? null, 1, 20);
         if (!in_array($i['size'] ?? '', ['XS', 'S', 'M', 'L', 'XL', 'XXL'], true) || !preg_match('/^#[a-f0-9]{6}$/i', $i['color'] ?? '')) {

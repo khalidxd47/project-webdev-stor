@@ -1,0 +1,11 @@
+# حماية إضافية إذا كان جذر الخادم (مثل Laragon/XAMPP) هو مجلد المشروع لا public.
+# الجذر الصحيح هو public؛ هذا الملف يمنع تنزيل الإعدادات وقاعدة البيانات والكود الداخلي.
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^$ public/ [R=302,L]
+RewriteRule ^(app|config|database|docs|scripts|tests|vendor)(/|$) - [F,L]
+RewriteRule (^|/)\. - [F,L]
+RewriteRule ^(composer\.(json|lock)|router\.php|[^/]+\.md)$ - [F,L]
+</IfModule>
