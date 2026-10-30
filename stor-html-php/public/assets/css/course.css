@@ -56,6 +56,11 @@
   object-fit: contain;
   transition: opacity 0.25s;
 }
+/* محدد ID: صورة العرض المتحرك في about.html. */
+#slide-image {
+  border-radius: var(--radius);
+  background: var(--surface-raised);
+}
 .course-space {
   margin-top: 2rem;
 }
